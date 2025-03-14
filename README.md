@@ -1,4 +1,4 @@
-# Welcome to Quantum Physics 🌌
+# Welcome to Quantum Mechanics 🌌
 
 This is a static web page dedicated to introducing the fascinating world of quantum physics.
 
@@ -15,7 +15,7 @@ This is a static web page dedicated to introducing the fascinating world of quan
 
 ### About the Content
 
-The website is designed to provide an engaging and informative introduction to quantum physics. Visitors can explore key concepts, theories, and experiments that define this intriguing field of science.
+The website is designed to provide an engaging and informative introduction to quantum Mechanics. Visitors can explore key concepts, theories, and experiments that define this intriguing field of science.
 
 ---
 
