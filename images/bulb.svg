@@ -1,0 +1,99 @@
+<svg id="Shine" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff991;
+      }
+
+      .cls-1, .cls-2, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #ffdc51;
+      }
+
+      .cls-3 {
+        fill: #63a1c3;
+      }
+
+      .cls-4, .cls-7 {
+        fill: none;
+        stroke: #63a1c3;
+        stroke-width: 7.33px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      /* Copy this @keyframes block to your CSS*/
+@keyframes lightAnimation {
+    0.0%{
+        transform: scale(0.5);
+        transform-origin: center;
+    }
+    100%{
+        transform: scale(0.5);
+        transform-origin: center;
+    }
+    50%{
+        transform: scale(1.05);
+        transform-origin: center;
+    }
+
+    60%{
+        transform: scale(1.05);
+        transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light{
+    animation: lightAnimation 3s linear 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes shineAnimation {
+    0.0%{
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    100%{
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    50%{
+        transform: scale(1);
+        transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#shine{
+    animation: shineAnimation 3s linear 0s infinite normal none;
+}
+
+    </style>
+  </defs>
+
+   <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+    <feGaussianBlur stdDeviation="30 30" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"/>
+  </filter>
+
+  <path id="light" class="cls-1" filter="url(#filter)" d="M244.719,85.531c96.011,0,173.843,76.476,173.843,170.813S340.73,427.156,244.719,427.156,70.875,350.681,70.875,256.344,148.708,85.531,244.719,85.531Z"/>
+  <g id="shine">
+    <path id="shine6" class="cls-2" d="M357.141,120.967l36.012-29.736a5.189,5.189,0,0,1,6.608,8l-36.013,29.735A5.189,5.189,0,1,1,357.141,120.967Z"/>
+    <path id="shine5" class="cls-2" d="M395.876,163.928l43-18.224a5.189,5.189,0,0,1,4.05,9.556l-43,18.224A5.189,5.189,0,0,1,395.876,163.928Z"/>
+    <path id="shine4" class="cls-2" d="M287.629,98.4L301.8,53.9a5.189,5.189,0,1,1,9.889,3.15l-14.175,44.5A5.189,5.189,0,1,1,287.629,98.4Z"/>
+    <path id="shine3" class="cls-2" d="M105.275,146.378l-22.9-40.7a5.189,5.189,0,1,1,9.045-5.088l22.9,40.7A5.189,5.189,0,0,1,105.275,146.378Z"/>
+    <path id="shine2" class="cls-2" d="M154.409,115.85L144.076,70.3a5.189,5.189,0,1,1,10.121-2.3l10.333,45.544A5.189,5.189,0,0,1,154.409,115.85Z"/>
+    <path id="shine1" class="cls-2" d="M86.487,206.825L41.654,193.747a5.189,5.189,0,1,1,2.906-9.963l44.834,13.078A5.189,5.189,0,1,1,86.487,206.825Z"/>
+  </g>
+  <rect id="body" class="cls-3" x="184.781" y="354.844" width="122.813" height="108.125" rx="10" ry="10"/>
+  <ellipse id="decoration3" class="cls-4" cx="245.313" cy="463.39" rx="16.438" ry="20.328"/>
+  <rect id="decoration2" class="cls-5" x="184.781" y="400.094" width="122.813" height="8.968"/>
+  <rect id="decoration1" class="cls-5" x="184.781" y="424.312" width="122.813" height="8.969"/>
+  <circle id="wick" class="cls-6" cx="244.875" cy="261.875" r="123.25"/>
+  <path id="line" class="cls-7" d="M214.176,352.256s4-85.08-24.216-89.08-43.567,21.3-27.676,32c6.685,4.5,23.784,10.888,40.649,12.973,23.232,2.873,47.282-1.944,54.486-26.81,12.432-42.919-3.784-51.351-19.027-51.027s-20.216,35.135-5.189,49.3,32.54,21.3,54.486,17.3,37.729-27.135,39.783-38.918-25.4-28-36.324-8.649-21.081,67.134-17.3,99.458"/>
+</svg>

@@ -1,0 +1,113 @@
+
+#error {
+    color: red;
+    font-size: 3vmin;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    padding: 0px 10px;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    grid-area:2/1;
+    margin-left: 25vmin;
+    margin-top: -2vmin;
+}
+
+#error.show {
+    visibility: visible;
+    padding: 10px;
+    max-height: 100px;
+    opacity: 1;
+}
+
+#contactForm{
+    position:relative;
+    grid-area:2/1/4/2;
+    margin: 1em auto;
+}
+
+input,
+textarea,
+button {
+  font-size: 3vmin;
+  vertical-align: middle;
+  -webkit-appearance:none;
+}
+
+#clearButton{
+    border-radius: 5vmin;
+    font-size: 2vmin;
+    background-color: rgba(240, 248, 255, 0.342);
+    color:aliceblue;
+    border: none;
+    height: 3vmin;
+    width: 8vmin;
+    font-family: 'Roboto Slab', serif;
+}
+
+#clearButton2{
+    border-radius: 5vmin;
+    font-size: 2vmin;
+    background-color: rgba(240, 248, 255, 0.342);
+    color:aliceblue;
+    border: none;
+    height: 3vmin;
+    width: 8vmin;
+    font-family: 'Roboto Slab', serif;
+}
+
+#send{
+    border-radius: 5vmin;
+    font-size: 2.5vmin;
+    background-color: rgba(240, 248, 255, 0.342);
+    color:aliceblue;
+    border: none;
+    height: 5vmin;
+    width: 20vmin;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contact p{
+    margin-top: 2.5vmin;
+}
+
+input[type=text], input[type=number], textarea{
+    border: 2px solid hsl(209, 51%, 25%);
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+input[type=text]{
+    width: 30vmin;
+}
+
+textarea{
+    width: 50vmin;
+    height: 15vmin;
+    font-family: 'Roboto Slab', serif;
+}
+
+:placeholder-shown{
+    font-size: 2vmin;
+}
+
+label{
+    font-size: 2.5vmin;
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type=text]:focus, input[type=number]:focus, textarea:focus{
+    outline: 0px;
+    border-color: hsl(197, 63%, 55%);
+    box-shadow: 0px 0px 0px 3px hsl(202, 85%, 82%);
+}
+
+#remainingOutput{
+    font-size: 2.2vmin;
+    color: rgba(240, 248, 255, 0.541);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}

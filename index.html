@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/form-input.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>MoNaSH</title>
+    <script src="js/lottie.min.js"></script>
+</head>
+
+<body>
+    <section id="preloader">
+        <img src="images/preloading.gif" alt="">
+      </section>
+
+    <section id="header">       
+        <div id="main">        
+            <nav id="navigation">
+                <img src="images/logo.png" alt="" id="logo">
+                <div id="destination">
+                    <a href="#header" class="selected" id="firstOne">Home</a>
+                    <a href="#section1">Introduction</a>
+                    <a href="#section2">Experiments</a>
+                    <a href="#section3">Inventions</a>
+                    <a href="#section4">Founders</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            <div id="replace"></div>
+            
+            <div id="header-body">
+                <h1 data-aos="fade-down"
+                data-aos-anchor-placement="top-bottom" 
+                data-aos-delay="50"
+                data-aos-duration="1500"
+                data-aos-easing="ease"
+                data-aos-mirror="true"
+                data-aos-offset="100"
+                data-aos-once="false"
+                >The Pillars of Modern Physics:</h1>
+                <h2 data-aos="fade-right">Quantum Mechanics</h2>
+                <img src="images/quantum.svg" alt="" id="quantum">    
+                <img src="images/decoquantum1.svg" alt="" id="decoquantum1"> 
+                <img src="images/decoquantum2.svg" alt="" id="decoquantum2">           
+                <img src="images/decoquantum3.svg" alt="" id="decoquantum3">
+                <button id="explore"><a href="#section1">Explore</a></button>
+                <img src="images/decodot.png" alt="" id="decodot1" class="dot">
+                <img src="images/decodot.png" alt="" id="decodot2" class="dot">    
+                <img src="images/decodot.png" alt="" id="decodot3" class="dot">    
+                <img src="images/decodot.png" alt="" id="decodot4" class="dot">    
+                <img src="images/decodot.png" alt="" id="decodot5" class="dot">    
+            </div>
+    </div>    
+    </section>
+
+    <section id="section1">
+        <div>
+            <video src="video/backgroundvideo.mp4" type="video/mp4" autoplay loop muted></video>
+            <h1 data-aos="fade-down" 
+                data-aos-anchor-placement="top-bottom" 
+                data-aos-delay="50"
+                data-aos-duration="1500"
+                data-aos-easing="ease"
+                data-aos-mirror="true"
+                data-aos-offset="100"
+                data-aos-once="false"
+                >What is quantum?</h1>
+            <p id="description1" data-aos="zoom-in">
+                Quantum is an important concept in modern physics. 
+                If a physical quantity has the smallest indivisible fundamental unit, the physical quantity is quantized.
+                <br>It can describe energy as well as matter, and is the minimun unit of measurement that physicists use to explain the wave-particle duality in the microcosmic world. 
+                In addition, quantum is a manifestation of the discontinuity of the world, namely that space, time, matter and energy are all discontinuous.
+                <img src="images/decoquantum2.svg" alt="" id="decoration1">
+                <img src="images/decoquantum3.svg" alt="" id="decoration2">
+            </p>  
+      </div>
+    </section>
+
+    <section id="section2">
+            <h1 data-aos="fade-down"
+            data-aos-anchor-placement="top-bottom"  
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            >Famous Experiments</h1>
+            <h3 id="exper1" data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            >Schroedinger's Cat</h3>
+            <p id="description2" data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            >In 1935, Edwin Schrodinger came up with the world's most famous thought experiment — Schrodinger's cat, 
+            which would be in an awkward state of uncertainty in a sealed box of radioactive material. 
+            The bizarre principle of quantum theory would mean that the cat would be both dead and alive, and its state would only be determined once the box was opened.
+            </p>
+            <div id="cat2"></div>
+            <script src="Cat/Cat2.js"></script>
+            <img src="images/cat1.svg" alt="" id="cat1">
+            <h3 id="exper2" data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            >Double-slit Interfance</h3>
+            <p id="description3" data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            >In 1807, Thomas Young proposed an experiment demonstrating the wave and particle properties of microscopic objects. 
+            A microscopic object can travel from its initial point to its final point by either or both paths at the same time. 
+            The difference between these two paths causes the quantum states that describe the physical behavior of microscopic objects to phase shift, resulting in interference.
+            </p>
+            <img src="images/bulb.svg" alt="" id="bulb">
+            <img src="images/double-slit.svg" alt="" id="double-slit">
+    </section>
+
+    <section id="section3">
+        <div id="section3-body">
+            <h1
+            data-aos="fade-down" 
+            data-aos-anchor-placement="top-bottom" 
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-offset="100"
+            data-aos-once="false"
+            >Modern Inventions</h1>
+            <h2 data-aos="zoom-in"
+            data-aos-anchor-placement="top-bottom" 
+            >Nowadays, the effects of quantum physics play an important role in many modern technological devices.</h2>
+            <p id="hint">"Click the small quantum dots to explore."</p>
+            
+            <img src="images/decodot.png" alt="" id="decodot6" class="dot2">
+            <img src="images/decodot.png" alt="" id="decodot7" class="dot2"> 
+            <img src="images/decodot.png" alt="" id="decodot8" class="dot2"> 
+            <img src="images/decodot.png" alt="" id="decodot9" class="dot2">
+            <img src="images/decodot.png" alt="" id="decodot10" class="dot2"> 
+    
+            <div id="quantums">
+                <img src="images/large.png" alt="" id="large">
+                <a href="images/computer.jpg" data-lightbox data-caption="Quantum Computer: A kind of physical device that carries out high-speed mathematical and logical operation, 
+                stores and processes quantum information in accordance with the laws of quantum mechanics. It takes quantum state as a memory unit and information storage form, 
+                which is mainly characterized by fast running speed, strong information processing ability and wide application range."> 
+                    <img src="images/small.png" alt="" id="small1">
+                </a>
+                <a href="images/camera.jpg" data-lightbox data-caption="Astronomical Camera: It can be used under various optical disturbances to photograph distant objects. 
+                If the satellite were equipped with a quantum camera, it would be able to monitor targets that are currently invisible from space. 
+                Using this quantum technology for military purposes could fundamentally change the nature of reconnaissance. 
+                While improving the accuracy, enemy stealth targets would be exposed.">
+                    <img src="images/small.png" alt="" id="small2">
+                </a>
+                <a href="images/compass.jpg" data-lightbox data-caption="Atomic Compass: A new navigation technology using quantum accelerometers 
+                to measure the movement of ultra-cold atoms, which is not affected by data tampering and signal interference. 
+                It is not just safe from attack, even if communication satellites are lost, they can continue to work without being affected. 
+                This positioning technology would eliminate the need for satellites and fixed reference points such as radio towers.">
+                    <img src="images/small.png" alt="" id="small3">
+                </a>
+                <a href="images/microscope.jpg" data-lightbox data-caption="Electron Microscope: An instrument that uses quantum entanglement to safely display biological samples, then reveals biological structures that would otherwise be impossible to see. 
+                Its light intensity does not damage biological samples, which can transcend the barriers of traditional light-based microscopes and observe living cells in detail to see and understand life on a smaller scale.">
+                    <img src="images/small.png" alt="" id="small4">
+                </a>
+                <a href="images/generator.jpg" data-lightbox data-caption="Electrical Generator: The world's first battery pack that generates power without any external force, fuel or power, just activation. 
+                Overcoming the defects of conventional generators and solving the problems of internal friction existing in conventional generators, so that the total internal consumption of the main engine is less than 4.5%. 
+                The ultimate goal of quantum generators is to replace nuclear power.">
+                    <img src="images/small.png" alt="" id="small5">
+                </a>
+            </div> 
+        </div>       
+    </section>
+
+    <section id="section4">
+        <h1
+        data-aos="fade-down" 
+        data-aos-anchor-placement="top-bottom" 
+        data-aos-delay="50"
+        data-aos-duration="1500"
+        data-aos-easing="ease"
+        data-aos-mirror="true"
+        data-aos-offset="100"
+        data-aos-once="false"
+        >Founders of Quantum Theory</h1>
+        <div id="section4-body">
+            <img src="images/previous.png" alt="" class="log" id="p">
+            <div id="slideshow">
+                <figure>
+                     <img src="images/physicist1.jpg" class="physicist" />
+                     <figcaption>
+                        <div class="phyname">Max Planck</div>
+                        <div class="phyage">(April 23rd,  1858 – October 4th, 1947) </div>
+                        <div class="phyintro">German physicist, founder of the old quantum mechanics. He made important contributions to the progress of physics for the discovery of quantum energy, explained the spectrum of black radiation, and won the Nobel Prize in Physics in 1918.</div>
+                    </figcaption>
+                </figure>
+        
+                <figure>
+                     <img src="images/physicist2.jpg" class="physicist" />
+                     <figcaption>
+                        <div class="phyname">Albert Einstein</div>
+                        <div class="phyage">(March 14th, 1879 - April 18th, 1955)</div>
+                        <div class="phyintro">German physicist who defined old quantum mechanics and was awarded the 1921 Nobel Prize in Physics "for his contributions to theoretical physics, in particular for his discovery of the principle of the photoelectric effect". The discovery was a crucial step towards the establishment of quantum theory.</div>
+                     </figcaption>
+                </figure>
+        
+                <figure>
+                     <img src="images/physicist3.jpg" class="physicist" />
+                     <figcaption>
+                        <div class="phyname">Erwin Schrodinger</div>
+                        <div class="phyage">(August 12th, 1887 - January 4th, 1961)</div>
+                        <div class="phyintro">Austrian theoretical physicist, one of the founders of quantum mechanics. In 1926, Schrodinger Equation and Schrodinger cat thought experiment were proposed, which laid a solid foundation and Schrodinger cat thought experiment for quantum mechanics.</div>
+                     </figcaption>
+                </figure>
+        
+                <figure>
+                     <img src="images/physicist4.jpg" class="physicist" />
+                     <figcaption>
+                        <div class="phyname">Werner Heisenberg</div>
+                        <div class="phyage">(June 5th, 1901 - February 1st, 1976)</div>
+                        <div class="phyintro">German physicist, one of the founders of quantum mechanics, who won the 1932 Nobel Prize in Physics. His major contributions to physics are the matrix form of quantum mechanics, the Uncertainty principle and the S-matrix theory.</div>
+                     </figcaption>
+                </figure>
+            
+                <figure>
+                      <img src="images/physicist5.jpg" class="physicist" />
+                      <figcaption>
+                        <div class="phyname">Elisabeth Dirac </div>
+                        <div class="phyage">(July 8th, 1902 - October 20th, 1984)</div>
+                        <div class="phyintro">British theoretical physicist, one of the founders of quantum mechanics. She developed the basic mathematical framework of quantum mechanics by combining Werner Heisenberg's matrix mechanics with Erwin Schrodinger's wave mechanics, and also proposed the theory of magnetic monopoles.</div>
+                      </figcaption>
+                </figure>
+                <img src="images/decoquantum3.svg" alt="" id="decoquantum4">
+                <img src="images/decoquantum2.svg" alt="" id="decoquantum5">  
+          </div>
+          <img src="images/next.png" alt="" class="log" id="next">
+          <ul id="indicator">
+              <li class="light"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div id="contact-body">
+            <div id="error">Please enter complete information!</div>
+            <form action="" id="contactForm">
+                <p>
+                <label for="username">Name:</label>
+                <input type="text" id="username" />
+                <button type="button" id="clearButton">Clear</button>
+                </p> 
+
+                <p>
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" />
+                <button type="button" id="clearButton2">Clear</button>
+                </p> 
+
+                <p>
+                <label for="age">Age:</label>
+                <input type="number" id="age" min="1" max="100" />
+                </p>
+
+                <p>
+                <label for="message">Message:</label><br />
+                <textarea id="message" placeholder="Enter your feedback..." maxlength="140"></textarea><br/>
+                <output id="remainingOutput">120 characters left</output>
+                </p>
+
+                <p>
+                <button type="submit" id="send">Submit Form</button>
+                </p>
+            </form>
+            <h1
+            data-aos="fade-down" 
+            data-aos-anchor-placement="top-bottom" 
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-offset="100"
+            data-aos-once="false"
+            >Contact Us</h1>
+            
+            <h2
+            data-aos="fade-top" 
+            data-aos-anchor-placement="top-bottom" 
+            >Museum of Natural and Scientific History</h2>
+
+            <h4>Info</h4>
+            <div id="numb">
+                <a href=""><img src="images/icon1.png" alt=""></a>
+                <p>+ 0086 158 5147 6882</p>
+            </div>
+
+            <div id="museumemail">
+                <a href=""><img src="images/icon2.png" alt=""></a>
+                <p>serive@MoNaSH.com</p>
+            </div>
+            <div id="address"> 
+                <a href=""><img src="images/icon3.png" alt=""></a>
+                <p> 17 MoNaSH Street, Melbourne VIC 3000, Australia</p>
+            </div>
+        </div>
+        
+    </section>
+
+
+  <footer>
+    <div>
+        <p>&copy; 2021 MoNaSH Co.Ltd. All Rights Reserved. <a href="index.html">Privacy Policy</a> | <a href="index.html">Terms of Use </a></p>
+    </div>
+</footer>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"> </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="js/scroll.js"></script>    
+    <script src="js/jquery-3.6.0.min.js"> </script>
+    <script src="js/lightbox.js"> </script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/form-input.js"></script>
+</body>
+</html>

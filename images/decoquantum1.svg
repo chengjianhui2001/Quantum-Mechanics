@@ -1,0 +1,57 @@
+<svg id="Group_6_copy" data-name="Group 6 copy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        stroke: #73c6fe;
+      }
+
+     
+/* Copy this @keyframes block to your CSS*/
+@keyframes decoAnimation {
+    0.0%{
+        transform: rotate(0deg);
+         transform-origin: center;
+    }
+    100%{
+        transform: rotate(360deg);
+         transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#decoration1{
+    animation: decoAnimation 5s ease 0s infinite alternate none;
+}
+
+    </style>
+    <linearGradient id="linear-gradient" x1="55.031" y1="74.5" x2="55.031" y2="35.125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#73c6fe"/>
+      <stop offset="0.497" stop-color="#82e7fe"/>
+      <stop offset="1" stop-color="#73c6fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="55.031" y1="106.406" x2="55.031" y2="3.188" xlink:href="#linear-gradient"/>
+  </defs>
+
+  <g id="decoration1">
+    <path id="deco2" class="cls-1" d="M51.331,67.4C22.893,59.051,1.5,46.635,3.542,39.673s26.756-5.834,55.194,2.52,49.834,20.769,47.789,27.731S79.768,75.758,51.331,67.4Z"/>
+    <path id="deco1" class="cls-2" d="M42.434,51.1C50.788,22.66,63.2,1.264,70.166,3.309S76,30.066,67.646,58.5s-20.769,49.834-27.731,47.789S34.081,79.535,42.434,51.1Z"/>
+    <circle id="dot" class="cls-3" cx="55.078" cy="55.297" r="4.016"/>
+  </g>
+</svg>

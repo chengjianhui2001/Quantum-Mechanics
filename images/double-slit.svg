@@ -1,0 +1,198 @@
+<svg id="Slit" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2a678e;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #fbeeb8;
+      }
+
+      .cls-3 {
+        fill: #ffdc51;
+      }
+
+      /* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation1 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(7px,8px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light, #light1, #dark4{
+    animation: dotAnimation1 5s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation2 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(-9px,-2px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light3, #dark, #dark3, #light11{
+    animation: dotAnimation2 7s ease 0s infinite normal none;
+}
+
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation3 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(-15px,8px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light2, #light4, #dark5, #dark12{
+    animation: dotAnimation3 6s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation4 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(12px,-6px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#dark1, #dark2, #dark11{
+    animation: dotAnimation4 6s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation5 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(12px,-6px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light5, #light6, #dark13{
+    animation: dotAnimation5 5s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation6 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(3px,-12px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light7, #dark6, #dark10{
+    animation: dotAnimation6 6s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation7 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(12px,15px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#dark7, #light9, #light10{
+    animation: dotAnimation7 7s ease 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes dotAnimation8 {
+    0.0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    50.4%{
+        transform: translate(-20px,-5px);
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light8, #dark8, #dark9{
+    animation: dotAnimation8 8s ease 0s infinite normal none;
+}
+
+    </style>
+  </defs>
+  <rect class="cls-1" x="18" y="15.156" width="16.688" height="155.938"/>
+  <rect id="Rectangle_5_copy" data-name="Rectangle 5 copy" class="cls-1" x="18" y="328.906" width="16.688" height="155.938"/>
+  <rect id="Rectangle_5_copy_2" data-name="Rectangle 5 copy 2" class="cls-1" x="18" y="196.75" width="16.688" height="106.5"/>
+  <g id="topquantum">
+    <ellipse id="light1" class="cls-2" cx="187.672" cy="172.984" rx="8.984" ry="9.297"/>
+    <ellipse id="light" class="cls-2" cx="118.359" cy="171.063" rx="8.984" ry="9.313"/>
+    <ellipse id="dark" class="cls-3" cx="127.359" cy="201.219" rx="8.984" ry="9.313"/>
+    <ellipse id="dark1" class="cls-3" cx="158.141" cy="180.688" rx="8.984" ry="9.313"/>
+    <circle id="dark2" class="cls-3" cx="217.172" cy="184.531" r="8.984"/>
+    <ellipse id="light2" class="cls-2" cx="278.765" cy="171.063" rx="8.984" ry="9.313"/>
+    <circle id="dark3" class="cls-3" cx="313.422" cy="184.531" r="8.984"/>
+    <circle id="light3" class="cls-2" cx="246.047" cy="191.594" r="8.984"/>
+    <circle id="dark4" class="cls-3" cx="287.765" cy="204.422" r="8.984"/>
+    <circle id="dark5" class="cls-3" cx="347.422" cy="195.438" r="8.984"/>
+    <circle id="dark11" class="cls-3" cx="55.422" cy="167.438" r="8.984"/>
+    <circle id="light4" class="cls-2" cx="194.719" cy="204.422" r="8.969"/>
+    <circle id="light11" class="cls-2" cx="76.719" cy="186.422" r="8.969"/>
+  </g>
+  <g id="downquantum">
+    <circle id="light5" class="cls-2" cx="188.953" cy="297.453" r="8.984"/>
+    <ellipse id="dark6" class="cls-3" cx="159.422" cy="305.156" rx="8.984" ry="9.313"/>
+    <ellipse id="dark7" class="cls-3" cx="218.453" cy="309.015" rx="8.984" ry="9.297"/>
+    <circle id="light6" class="cls-2" cx="280.047" cy="295.531" r="8.984"/>
+    <ellipse id="dark8" class="cls-3" cx="314.703" cy="309.015" rx="8.984" ry="9.297"/>
+    <ellipse id="light7" class="cls-2" cx="247.328" cy="316.063" rx="8.984" ry="9.313"/>
+    <ellipse id="dark9" class="cls-3" cx="289.047" cy="328.906" rx="8.984" ry="9.313"/>
+    <ellipse id="light8" class="cls-2" cx="196.016" cy="328.906" rx="8.984" ry="9.313"/>
+    <ellipse id="dark10" class="cls-3" cx="170.328" cy="325.688" rx="8.984" ry="9.313"/>
+    <ellipse id="dark12" class="cls-3" cx="93.328" cy="299.688" rx="8.984" ry="9.313"/>
+    <ellipse id="dark13" class="cls-3" cx="58.328" cy="313.688" rx="8.984" ry="9.313"/>
+    <ellipse id="light9" class="cls-2" cx="349.36" cy="305.156" rx="8.984" ry="9.313"/>
+    <ellipse id="light10" class="cls-2" cx="123.484" cy="317.985" rx="8.984" ry="9.297"/>
+  </g>
+</svg>

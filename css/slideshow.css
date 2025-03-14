@@ -1,0 +1,74 @@
+#section4-body{
+    position: relative;
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.log {
+    width: 10vmin;
+    height: 10vmin;
+}
+  
+#slideshow {
+    margin: 0;
+    padding: 0;
+    width: 80vmin;
+    height: 60vmin;
+    position: relative;
+}
+  
+#slideshow  .physicist{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vmin;
+    height: 60vmin;
+    object-fit: cover;
+}
+  
+#slideshow figcaption {
+    background-color: rgba(240, 248, 255, 0.411);
+    color: #fff;
+    height: 60vmin;
+    position: absolute;
+    top: 0;
+    left: 40vmin;
+    width: 40vmin;
+    padding: 2vmin;
+    box-sizing: border-box;
+}
+
+#indicator {
+    position: absolute;
+    margin-left: -6vmin;
+    top: 65vmin;
+    list-style-type: none;
+    display: flex;
+}
+
+#indicator li{
+    width: 2vmin;
+    height: 2vmin;
+    background-color:aliceblue;
+    border-radius: 2vmin;
+    margin-left: 2vmin;
+}
+
+#indicator .light {
+    background-color: rgb(0, 39, 61);
+}
+
+#slideshow #decoquantum4{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+}
+  
+#slideshow #decoquantum5{
+    width: 8vmin;
+    position: absolute;
+    bottom: -35px;
+    right: -35px;
+}

@@ -1,0 +1,135 @@
+<svg id="Shine" xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff991;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #ffdc51;
+      }
+
+      .cls-3 {
+        fill: #63a1c3;
+      }
+
+      .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #63a1c3;
+        stroke-width: 7.33px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        stroke: #024975;
+        stroke-width: 5px;
+      }
+
+      .cls-8 {
+        fill: #fbeeb8;
+      }
+
+      /* Copy this @keyframes block to your CSS*/
+@keyframes lightAnimation {
+    0.0%{
+        transform: scale(0.5);
+        transform-origin: center;
+    }
+    100%{
+        transform: scale(0.5);
+        transform-origin: center;
+    }
+    50%{
+        transform: scale(1.2);
+        transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#light{
+    animation: lightAnimation 3s linear 0s infinite normal none;
+}
+
+/* Copy this @keyframes block to your CSS*/
+@keyframes shineAnimation {
+    0.0%{
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    100%{
+        transform: scale(0.9);
+        transform-origin: center;
+    }
+    50%{
+        transform: scale(1);
+        transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#shine{
+    animation: shineAnimation 3s linear 0s infinite normal none;
+}
+
+    </style>
+  </defs>
+
+  <filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+    <feGaussianBlur stdDeviation="30 30" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"/>
+  </filter>
+
+  <path id="light" class="cls-1" filter="url(#filter)" d="M237.716,72.529c96.007,0,173.836,76.474,173.836,170.809S333.723,414.147,237.716,414.147,63.88,337.673,63.88,243.338,141.709,72.529,237.716,72.529Z"/>
+  <g id="shine">
+  <path id="shine6" class="cls-2" d="M352.141,98.967l36.012-29.736a5.189,5.189,0,0,1,6.608,8l-36.013,29.735A5.189,5.189,0,1,1,352.141,98.967Z"/>
+  <path id="shine5" class="cls-2" d="M390.876,141.928l43-18.224a5.189,5.189,0,1,1,4.05,9.556l-43,18.224A5.189,5.189,0,0,1,390.876,141.928Z"/>
+  <path id="shine4" class="cls-2" d="M282.629,76.4L296.8,31.9a5.189,5.189,0,1,1,9.889,3.15l-14.175,44.5A5.189,5.189,0,1,1,282.629,76.4Z"/>
+  <path id="shine3" class="cls-2" d="M100.275,124.378l-22.9-40.7a5.189,5.189,0,1,1,9.045-5.089l22.9,40.7A5.189,5.189,0,0,1,100.275,124.378Z"/>
+  <path id="shine2" class="cls-2" d="M149.409,93.85L139.076,48.3a5.189,5.189,0,1,1,10.121-2.3L159.53,91.553A5.189,5.189,0,0,1,149.409,93.85Z"/>
+  <path id="shine1" class="cls-2" d="M81.487,184.825L36.654,171.747a5.189,5.189,0,1,1,2.906-9.963l44.834,13.078A5.189,5.189,0,1,1,81.487,184.825Z"/>
+  </g>
+  <path id="body" class="cls-3" d="M189.771,332.85H292.58a10,10,0,0,1,10,10v88.108a10,10,0,0,1-10,10H189.771a10,10,0,0,1-10-10V342.85A10,10,0,0,1,189.771,332.85Z"/>
+  <path id="decoration3" class="cls-4" d="M240.311,421.066c9.075,0,16.432,9.1,16.432,20.324s-7.357,20.324-16.432,20.324-16.433-9.1-16.433-20.324S231.235,421.066,240.311,421.066Z"/>
+  <path id="decoration2" class="cls-5" d="M179.771,378.093H302.58v8.973H179.771v-8.973Z"/>
+  <path id="decoration1" class="cls-5" d="M179.771,402.309H302.58v8.973H179.771v-8.973Z"/>
+  <circle id="wick" class="cls-6" cx="239.875" cy="239.875" r="123.25"/>
+  <path id="line" class="cls-4" d="M209.176,330.256s4-85.08-24.216-89.08-43.567,21.3-27.676,32c6.685,4.5,23.784,10.888,40.649,12.973,23.232,2.873,47.282-1.944,54.486-26.81,12.432-42.919-3.784-51.351-19.027-51.027s-20.216,35.135-5.189,49.3,32.54,21.3,54.486,17.3,37.729-27.135,39.783-38.918-25.4-28-36.324-8.649-21.081,67.134-17.3,99.458"/>
+  <rect class="cls-7" x="470" y="15.156" width="16.688" height="155.938"/>
+  <rect id="Rectangle_5_copy" data-name="Rectangle 5 copy" class="cls-7" x="470" y="328.906" width="16.688" height="155.938"/>
+  <rect id="Rectangle_5_copy_2" data-name="Rectangle 5 copy 2" class="cls-7" x="470" y="196.75" width="16.688" height="106.5"/>
+  <g id="topquantum">
+    <ellipse id="light1" class="cls-8" cx="598.672" cy="170.984" rx="8.984" ry="9.297"/>
+    <ellipse id="light-2" data-name="light" class="cls-8" cx="529.36" cy="169.063" rx="8.985" ry="9.313"/>
+    <ellipse id="dark" class="cls-6" cx="538.36" cy="199.219" rx="8.985" ry="9.313"/>
+    <ellipse id="dark1" class="cls-6" cx="569.14" cy="178.688" rx="8.985" ry="9.313"/>
+    <circle id="dark2" class="cls-6" cx="628.172" cy="182.531" r="8.984"/>
+    <ellipse id="light2" class="cls-8" cx="689.765" cy="169.063" rx="8.985" ry="9.313"/>
+    <circle id="dark3" class="cls-6" cx="724.422" cy="182.531" r="8.984"/>
+    <circle id="light3" class="cls-8" cx="657.046" cy="189.594" r="8.984"/>
+    <circle id="dark4" class="cls-6" cx="698.765" cy="202.422" r="8.985"/>
+    <circle id="dark5" class="cls-6" cx="758.422" cy="193.438" r="8.984"/>
+    <circle id="light4" class="cls-8" cx="605.719" cy="202.422" r="8.969"/>
+  </g>
+  <g id="downquantum">
+    <circle id="light5" class="cls-8" cx="599.954" cy="295.453" r="8.984"/>
+    <ellipse id="dark6" class="cls-6" cx="570.422" cy="303.156" rx="8.984" ry="9.313"/>
+    <ellipse id="dark7" class="cls-6" cx="629.454" cy="307.015" rx="8.984" ry="9.297"/>
+    <circle id="light6" class="cls-8" cx="691.046" cy="293.531" r="8.984"/>
+    <ellipse id="dark8" class="cls-6" cx="725.704" cy="307.015" rx="8.984" ry="9.297"/>
+    <ellipse id="light7" class="cls-8" cx="658.328" cy="314.063" rx="8.984" ry="9.313"/>
+    <ellipse id="dark9" class="cls-6" cx="700.046" cy="326.906" rx="8.984" ry="9.313"/>
+    <ellipse id="light8" class="cls-8" cx="607.015" cy="326.906" rx="8.985" ry="9.313"/>
+    <ellipse id="dark10" class="cls-6" cx="581.328" cy="323.688" rx="8.984" ry="9.313"/>
+    <ellipse id="light9" class="cls-8" cx="760.36" cy="303.156" rx="8.985" ry="9.313"/>
+    <ellipse id="light10" class="cls-8" cx="534.485" cy="315.985" rx="8.985" ry="9.297"/>
+  </g>
+</svg>

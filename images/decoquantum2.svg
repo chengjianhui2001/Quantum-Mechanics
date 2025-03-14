@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #73c6fe;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 6px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-3);
+      }
+
+      /* Copy this @keyframes block to your CSS*/
+@keyframes decoAnimation {
+    0.0%{
+        transform: rotate(0deg);
+         transform-origin: center;
+    }
+    100%{
+        transform: rotate(360deg);
+         transform-origin: center;
+    }
+}
+
+/* Add the animation: property to whichever element you want to animate */
+#decoration2{
+    animation: decoAnimation 4.5s ease 0s infinite alternate none;
+}
+    </style>
+    <linearGradient id="linear-gradient" x1="54.5" y1="78" x2="54.5" y2="34.781" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#73c6fe"/>
+      <stop offset="0.497" stop-color="#82e7fe"/>
+      <stop offset="1" stop-color="#73c6fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="56.547" y1="91.844" x2="56.547" y2="21.969" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="55.234" y1="104.75" x2="55.234" y2="4.531" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="decoration2">
+    <circle id="dot" class="cls-1" cx="55.563" cy="55.313" r="4.75"/>
+    <path id="deco3" class="cls-2" d="M102.542,39.561c2.623,7.486-16.757,21.087-43.285,30.381S9.1,80.7,6.476,73.215,23.233,52.128,49.761,42.834,99.92,32.075,102.542,39.561Z"/>
+    <path id="deco2" class="cls-3" d="M95.128,90.082c-5.172,6.014-26.641-3.968-47.953-22.3s-34.4-38.06-29.226-44.073S44.59,27.682,65.9,46.009,100.3,84.069,95.128,90.082Z"/>
+    <path id="deco1" class="cls-4" d="M64.664,4.621c7.794,1.472,9.884,25.056,4.668,52.676S53.57,106.116,45.776,104.644s-9.884-25.055-4.668-52.676S56.87,3.15,64.664,4.621Z"/>
+  </g>
+</svg>
